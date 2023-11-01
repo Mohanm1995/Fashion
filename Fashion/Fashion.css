@@ -1,0 +1,107 @@
+/* App.css */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: solid black 5px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 13px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+
+img {
+  padding-left: 15%;
+}
+
+.b {
+  margin-top: 1%;
+  font-style: italic;
+  float: left;
+}
+
+button {
+  border-radius: 20px;
+  border-color: black;
+  background-color: black;
+  color: orchid;
+  float: right;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+#border_radius {
+  border-radius: 20px;
+  color: orange;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card-deck {
+  display: flex;
+  padding-left: 3%;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card-body {
+  border: solid black 2px;
+  align-content: center;
+  text-align: center;
+}
+
+.card {
+  padding: 10%;
+  align-items: center;
+}
+
+.card-title {
+  color: orange;
+}
+
+.card-img-top {
+  width: 150%;
+  height: 75%;
+  padding-left: 0%;
+  border: solid orange 2px;
+  border-radius: 15px;
+}
+
+span {
+  color: darkorange;
+}
+
+body {
+  background-color: darkorange;
+}
+
+.footer {
+  background-color: orange;
+  padding: 1%;
+  text-align: center;
+}
