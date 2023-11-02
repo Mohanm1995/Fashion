@@ -1,4 +1,3 @@
-/* App.css */
 ul {
   list-style-type: none;
   margin: 0;
@@ -104,4 +103,60 @@ body {
   background-color: orange;
   padding: 1%;
   text-align: center;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+  /* Tablet and smaller screens */
+  ul li a {
+    padding: 10px 5px;
+  }
+
+  div > div:first-child {
+    width: 100%;
+    text-align: center;
+  }
+
+  div > div:last-child {
+    width: 100%;
+  }
+
+  div img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .card-deck {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Mobile */
+  ul li a {
+    padding: 8px 3px;
+  }
+
+  h1.b {
+    font-size: 40px;
+  }
+
+  p.b {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  div img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .card-deck {
+    flex-direction: column;
+    align-items: center;
+  }
 }
