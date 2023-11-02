@@ -121,7 +121,7 @@ const Fashion = () => {
             textAlign: "center",
           }}
         >
-          Latest Man Cloth Colections
+          Latest Man Cloth Collections
         </h1>
         <br />
         <div style={{ display: "flex", justifyContent: "space-evenly" }}>
@@ -254,7 +254,6 @@ const Fashion = () => {
           </div>
         </div>
 
-        {/* gfjhghjgjhg */}
         <h1
           style={{
             color: "orangered",
@@ -290,9 +289,9 @@ const Fashion = () => {
         </div>
       </div>
 
-      {/* dgfshdgsdgsdskdjgsdkj */}
-
-      <div className="footer">All Rights reserved @ LOGOIPSUM</div>
+      <div className="footer">
+        <h5>All Rights reserved @ LOGOIPSUM</h5>
+      </div>
     </div>
   );
 };
